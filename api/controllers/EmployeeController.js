@@ -17,7 +17,7 @@ module.exports = {
       if (err) {
         return res.send(err,500);
       }
-      res.json({created:done});
+      res.json(done);
     });
   },
 
@@ -30,7 +30,7 @@ module.exports = {
       if (err) {
         return res.send(err,500);
       }
-      res.json({values:show});
+      res.json(show);
     });
   },
 
@@ -43,7 +43,7 @@ module.exports = {
     if (err) {
       return res.send(err,500);
     }
-    res.json({values:updated});
+    res.json(updated);
    });
   },
 
@@ -56,7 +56,7 @@ module.exports = {
       if (err) {
         return res.send(err,500);
       }
-      res.json({values:"deleted"});
+      res.json("deleted");
     });
   }
 };

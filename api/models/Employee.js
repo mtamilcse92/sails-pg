@@ -9,13 +9,13 @@ module.exports = {
 
   attributes: {
 
-    empName : { type: 'string' },
+    name : { type: 'string' },
 
-    empGender : { type: 'string' },
+    gender : { type: 'string' },
 
-    empAge : { type: 'integer' },
+    age : { type: 'integer' },
 
-    empSalary : { type: 'integer' }
+    salary : { type: 'integer' }
   }
 };
 
